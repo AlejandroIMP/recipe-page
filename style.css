@@ -26,6 +26,7 @@
 
 body {
   width: 100%;
+  background-color: var(--Stone-100);
 }
 
 h1{
@@ -72,7 +73,10 @@ main {
   width: 100%;
   max-width: 400px;
   min-width: 375px;
-  color: var(--White);
+  background-color: var(--White);
+  margin: 6rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 figure {
