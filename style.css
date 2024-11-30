@@ -72,12 +72,23 @@ table {
 
 main {
   width: 100%;
-  max-width: 425px;
+  max-width: 400px;
   min-width: 375px;
   background-color: var(--White);
-  margin: 6rem auto;
-  padding: 1rem;
   border-radius: 1rem;
+}
+
+@media (min-width: 376px){
+  main{
+    padding: 1rem;
+    margin: 6rem auto;
+  }
+  img{
+    border-radius: 1rem;
+  }
+  .section-container{
+    padding: 0 !important; 
+  }
 }
 
 figure {
@@ -87,6 +98,10 @@ figure {
 img {
   width: 100%;
   height: auto;
+}
+
+.section-container{
+  padding: 1.5rem;
 }
 
 
