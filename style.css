@@ -72,6 +72,7 @@ main {
   width: 100%;
   max-width: 400px;
   min-width: 375px;
+  color: var(--White);
 }
 
 figure {
