@@ -46,9 +46,10 @@ h2 {
   font-weight: 500;
 }
 
-h3 {
+.title-preparation {
   font-family: var(--font-family);
   font-size: 1.2rem;
+  font-weight: 500;
   color: var(--Rose-800);
 }
 
@@ -72,14 +73,18 @@ table {
 
 main {
   width: 100%;
-  max-width: 400px;
-  min-width: 375px;
+}
+
+.recipe {
+  max-width: 475px;
+  min-width: 300px;
   background-color: var(--White);
   border-radius: 1rem;
+  margin: 0;
 }
 
 @media (min-width: 376px){
-  main{
+  .recipe{
     padding: 1rem;
     margin: 6rem auto;
   }
