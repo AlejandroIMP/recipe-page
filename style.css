@@ -76,7 +76,7 @@ main {
 }
 
 .recipe {
-  max-width: 475px;
+  max-width: 675px;
   min-width: 300px;
   background-color: var(--White);
   border-radius: 1rem;
